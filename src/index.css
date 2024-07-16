@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'adihausdin';
+    src: url('./assets/fonts/adihausdin.ttf');
+}
+
+@font-face {
+    font-family: 'adihausdin-pro';
+    src: url('./assets/fonts/adineue-pro.ttf');
+}

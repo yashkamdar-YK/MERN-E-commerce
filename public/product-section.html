@@ -1,0 +1,167 @@
+import React from "react";
+
+const Product = () => {
+  return (
+    <div className="w-full h-screen px-12 relative">
+      <div className="heading flex justify-between items-center pb-4 text-center">
+        <p className="text-2xl font-medium mt-5 tracking-wide">
+          Men's Shoes (1120)
+        </p>
+        <div className="flex gap-4 items-center text-center text-lg mt-5">
+          <p className="cursor-pointer">Hide Filter</p>
+          <p className="cursor-pointer">Sort By</p>
+        </div>
+      </div>
+
+      <div className="flex mt-5">
+        <div className="Filter-section w-64 bg-zinc-400 h-full  ">
+          <p>Filter Content Here</p>
+        </div>
+
+        <div className="Product-section  flex flex-1 px-6 m-0 h-full ">
+
+          <div className="product_container flex   ">
+
+            <div className="product bg-white w-[374px] h-[544px] ml-6">
+              <img
+                className="product_img w-full" src="./public/img-1.png" alt="Product Image"/>
+              <div className="product-details">
+                <div className="bestseller text-[#9e3500] m-0 font-medium tracking-wider mt-2.5 text-[18px]">
+                  Bestseller
+                </div>
+                <p className="shoe_name m-[0px] mt-2 text-[18.5px] font-medium text-[#111111]">
+                  Nike Air Max Pulse Roam
+                </p>
+                <p className="shoe_catogory text-[#707072] m-0 mt-1.25 text-[17px]">
+                  Men's Shoes
+                </p>
+                <div className="shoe_colours text-[#707072] m-0 mt-[-3px] mb-[6px] text-[17px]">
+                  1 Colour
+                </div>
+                <span className="Shoe_price text-[#111111] font-medium m-0 text-[18.5px]">
+                  MRP : ₹ 8 295.00
+                </span>
+              </div>
+            </div>
+
+            <div className="product bg-white w-[374px] h-[544px] ml-6">
+              <img
+                className="product_img w-full" src="./public/img-2.png" alt="Product Image"/>
+              <div className="product-details">
+                <div className="bestseller text-[#9e3500] m-0 font-medium tracking-wider mt-2.5 text-[18px]">
+                  Bestseller
+                </div>
+                <p className="shoe_name m-[0px] mt-2 text-[18.5px] font-medium text-[#111111]">
+                  Nike Air Max Pulse Roam
+                </p>
+                <p className="shoe_catogory text-[#707072] m-0 mt-1.25 text-[17px]">
+                  Men's Shoes
+                </p>
+                <div className="shoe_colours text-[#707072] m-0 mt-[-3px] mb-[6px] text-[17px]">
+                  1 Colour
+                </div>
+                <span className="Shoe_price text-[#111111] font-medium m-0 text-[18.5px]">
+                  MRP : ₹ 8 295.00
+                </span>
+              </div>
+            </div>
+
+            <div className="product bg-white w-[374px] h-[544px] ml-6">
+              <img
+                className="product_img w-full" src="./public/img-3.png" alt="Product Image"/>
+              <div className="product-details">
+                <div className="bestseller text-[#9e3500] m-0 font-medium tracking-wider mt-2.5 text-[18px]">
+                  Bestseller
+                </div>
+                <p className="shoe_name m-[0px] mt-2 text-[18.5px] font-medium text-[#111111]">
+                  Nike Air Max Pulse Roam
+                </p>
+                <p className="shoe_catogory text-[#707072] m-0 mt-1.25 text-[17px]">
+                  Men's Shoes
+                </p>
+                <div className="shoe_colours text-[#707072] m-0 mt-[-3px] mb-[6px] text-[17px]">
+                  1 Colour
+                </div>
+                <span className="Shoe_price text-[#111111] font-medium m-0 text-[18.5px]">
+                  MRP : ₹ 8 295.00
+                </span>
+              </div>
+            </div>
+
+            <div className="product bg-white w-[374px] h-[544px] ml-6">
+              <img
+                className="product_img w-full" src="./public/img-6.png" alt="Product Image"/>
+              <div className="product-details">
+                <div className="bestseller text-[#9e3500] m-0 font-medium tracking-wider mt-2.5 text-[18px]">
+                  Bestseller
+                </div>
+                <p className="shoe_name m-[0px] mt-2 text-[18.5px] font-medium text-[#111111]">
+                  Nike Air Max Pulse Roam
+                </p>
+                <p className="shoe_catogory text-[#707072] m-0 mt-1.25 text-[17px]">
+                  Men's Shoes
+                </p>
+                <div className="shoe_colours text-[#707072] m-0 mt-[-3px] mb-[6px] text-[17px]">
+                  1 Colour
+                </div>
+                <span className="Shoe_price text-[#111111] font-medium m-0 text-[18.5px]">
+                  MRP : ₹ 8 295.00
+                </span>
+              </div>
+            </div>
+
+            {/* <div className="product bg-white w-[374px] h-[544px] ml-6">
+              <img
+                className="product_img w-full" src="./public/img-5.png" alt="Product Image"/>
+              <div className="product-details">
+                <div className="bestseller text-[#9e3500] m-0 font-medium tracking-wider mt-2.5 text-[18px]">
+                  Bestseller
+                </div>
+                <p className="shoe_name m-[0px] mt-2 text-[18.5px] font-medium text-[#111111]">
+                  Nike Air Max Pulse Roam
+                </p>
+                <p className="shoe_catogory text-[#707072] m-0 mt-1.25 text-[17px]">
+                  Men's Shoes
+                </p>
+                <div className="shoe_colours text-[#707072] m-0 mt-[-3px] mb-[6px] text-[17px]">
+                  1 Colour
+                </div>
+                <span className="Shoe_price text-[#111111] font-medium m-0 text-[18.5px]">
+                  MRP : ₹ 8 295.00
+                </span>
+              </div>
+            </div>
+
+            <div className="product bg-white w-[374px] h-[544px] ml-6">
+              <img
+                className="product_img w-full" src="./public/img-4.png" alt="Product Image"/>
+              <div className="product-details">
+                <div className="bestseller text-[#9e3500] m-0 font-medium tracking-wider mt-2.5 text-[18px]">
+                  Bestseller
+                </div>
+                <p className="shoe_name m-[0px] mt-2 text-[18.5px] font-medium text-[#111111]">
+                  Nike Air Max Pulse Roam
+                </p>
+                <p className="shoe_catogory text-[#707072] m-0 mt-1.25 text-[17px]">
+                  Men's Shoes
+                </p>
+                <div className="shoe_colours text-[#707072] m-0 mt-[-3px] mb-[6px] text-[17px]">
+                  1 Colour
+                </div>
+                <span className="Shoe_price text-[#111111] font-medium m-0 text-[18.5px]">
+                  MRP : ₹ 8 295.00
+                </span>
+              </div>
+            </div> */}
+
+          </div>
+            
+        </div>
+        
+      </div>
+    
+    </div>
+  );
+};
+
+export default Product;
